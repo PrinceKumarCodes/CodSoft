@@ -30,7 +30,7 @@
    Calculator:- (https://github.com/user-attachments/assets/8edab6df-0075-4372-8d01-777f77c78aa3)
 
 
-🚀# Skills Gained
+#🚀 Skills Gained
 
   Through this internship, I gained experience in:
 
@@ -41,14 +41,14 @@
   -> Project management and time management during a remote internship.
 
 
-🙏# Gratitude
+#🙏 Gratitude
 
   I want to extend a big thanks to the CodSoft Community for offering me this incredible opportunity. 
   It was a great experience working with such a supportive team and enhancing my web development skills through practical projects.
   I highly recommend this internship to anyone looking for hands-on experience in web development.
 
 
- 📄 #Certificate
+ #📄 Certificate
  
    Here is the certificate I earned upon successful completion of my virtual internship:
 
