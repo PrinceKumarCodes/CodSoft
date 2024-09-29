@@ -64,9 +64,9 @@
  # Gratitude
 
 
-  -> I want to extend a big thanks to the CodSoft Community for offering me this incredible opportunity. 
+   I want to extend a big thanks to the CodSoft Community for offering me this incredible opportunity. 
   
-  -> It was a great experience working with such a supportive team and enhancing my web development skills through practical projects.
+   It was a great experience working with such a supportive team and enhancing my web development skills through practical projects.
   
    
 
