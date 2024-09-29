@@ -20,7 +20,7 @@
  # Internship Tasks 
  
 
-- **Task 1: Personal Portfolio**
+ **Task 1: Personal Portfolio**
 
    -> Developed a fully responsive Personal Portfolio website using HTML, CSS, and JavaScript. It showcases my skills, projects, and experiences 
       effectively.
@@ -29,7 +29,7 @@
 
 
 
-- **Task 2: Landing Page**
+  **Task 2: Landing Page**
   
   -> Created a visually engaging Landing Page with HTML and CSS. This task emphasized responsive design principles and UX/UI skills.
 
@@ -37,7 +37,7 @@
 
 
 
-- **Task 3: Calculator Website**
+  **Task 3: Calculator Website**
   
    -> Built an interactive Calculator web application using HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations.
 
