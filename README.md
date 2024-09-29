@@ -1,4 +1,4 @@
-#  Web Development Internship at CodSoft
+#  Web Development Internship @ CodSoft
 
 - Virtual Internship completed in July 2024, where I worked on real-world projects and enhanced my web development skills with a focus on HTML, CSS, and JavaScript.
 
