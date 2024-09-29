@@ -23,12 +23,12 @@
     🔗 [Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
 
 
-- Task 3: `Calculator`
+- Task 3: `Calculator Website`
   
    -> In this final task, I developed a basic Calculator using HTML, CSS, and JavaScript. The project focused on building an interactive UI with buttons for performing basic arithmetic 
   operations (addition, subtraction, multiplication, division).
 
-  🔗 [Calculator](https://princekumarsinghcalculator.netlify.app).
+  🔗 [Calculator Website](https://princekumarsinghcalculator.netlify.app).
 
 
  # Skills Gained
