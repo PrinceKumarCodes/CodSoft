@@ -13,15 +13,29 @@ a{
 }
 ul{
   list-style:none;
+ 
 }
 img{
   max-width: 100%;
 }
 body{
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Lexendd', sans-serif;
   font-size:16px;
   line-height:24px; 
-  background-color:#202020;
+  background-color: #202020;
+  background-image: url("/background_image2.png");
+  box-shadow: inset 0px 0px 20px ;
+   padding-top:0px;
+  border-left: 5px solid gray;
+  border-top-left-radius: 120px;
+
+  box-shadow: inset 0px 0px 20px ;
+  border-right:  5px solid gray;
+  border-top-right-radius: 120px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+ 
+
 }
 .container{
   width: 1170px;
@@ -34,8 +48,12 @@ body{
 .header-area{
   padding:12px 0;
   transition: padding .3s;
-  background-color:blue;
-  border-radius: 10px;
+  background-color:#202020;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+ 
 }
 
 .header-area.sticky {
@@ -44,9 +62,12 @@ body{
   left: 0;
   width: 100%;
   z-index: 99;
-  background-color:blue;
+  background-color:#202020;
   padding: 12px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
  
 }
 
@@ -55,11 +76,53 @@ body{
   justify-content: space-between;
   align-items: center;
   /* padding-bottom: 2rem; */
+  border-bottom: 5px double green;
+  /* border-top: 3px solid green; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
 } 
+.header ul a{
+  color: black;
+  font-weight: 600;
+}
+.header a{
+  color: black;
+}
+
+.header-area {
+  background-image: url("/header_area.webp");
+  /* background: linear-gradient(#e66465, #9198e5); */
+  background-size: cover;
+  border-bottom: 8px solid rgb(128, 109, 0);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+  
+}
+.header a p{
+  padding-left:8px;
+}
 .header span{
-  padding-right: 12px;
+  padding-left: 12px;
+  border:none;
+  cursor: pointer;
+  animation-name: coloranimation;
+  animation-duration: 0.40s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 
 }
+ 
+@keyframes coloranimation{
+  from{
+    color: green;
+  }
+  to {
+    color: red;
+  }
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -68,25 +131,7 @@ body{
   font-size: 26px;
   font-weight: 700;
 }
-
-.logo .fa-bolt {
-  color: #fed700;
-  font-size: 19.5px;
-  position: absolute; 
-  top: 60%;
-  left: 100%; 
-  transform: translate(-50%, -50%); 
-  z-index: 1; 
-}
-
-.signature {
-  width: 100px; 
-  height:auto; 
-  margin-right: 10px; 
-}
-.header ul li:first-child {
-  margin-right: auto; 
-}  
+  
 .header ul{
   display: flex;
   align-items: center; 
@@ -97,19 +142,30 @@ body{
 .header ul li a{
   text-transform: capitalize;
   display: block;
+ 
 }
 .header ul li a.active{
-  color: #fed700;
+  color: green;
+  font-weight: 750;
+  border:none;
+  cursor: pointer;
+  animation-name: coloranimation1;
+  animation-duration: 0.90s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 } 
 .header ul li a:hover{
   color:#fed700;
+ 
 }
 .header .menu_icon{
-  color:#fff;
-  font-size: 18px;
+  color:black;
+  font-size: 20px;
+  padding-right: 10px;
   cursor: pointer;
   display: none;
 }
+
 
 /*-------Home--------------*/
 
@@ -133,13 +189,26 @@ body{
   border: 9px solid #fed700;
   box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
 }
+.FirstElement .profile-photo:hover {
+  border: 9px solid green;
+  background-image: url("/My photo.png ");
+  width: 300px;
+  height:  300px;
+  border-radius: 50%;
+  overflow: hidden;
+ 
+}
 .profile-photo img{
   height: 100%;
   width: 100%;
   transition: 0.5s;
 }
 .FirstElement .profile-photo img:hover{
+ 
   transform: scale(1.1);
+  transform: skew(180deg);
+  
+
 }
 .profile-text{
   max-width: 750px;
@@ -151,68 +220,30 @@ body{
   font-size: 14px;
 }
 .profile-text h1{
-  color: #fed700;
+  color: green;
   font-size: 3rem; 
+}
+.profile-text h1:hover{
+  color: green;
+ 
 }
 .profile-text p{
   color:#e5e5e5;
+ 
 }
 .profile-text .social i{
   color : #e5e5e5;
-  font-size: 18px;
+  font-size: 23px;
   margin-right: 10px;
+  margin-left: 8px;
   transition: 0.5s;
 }
 .profile-text .social i:hover{
-  color:#fed700;
-  transform: rotate(360deg);
-}
- /*------About--------*/
-
-.about-area{
-  padding-top: 130px;
-  background-color: #202020;
-}
-.about{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom:50px;
-}
-.about-content{
-  flex-basis: 60%;
-}
-.about-content h4{
-  color: #fed700;
-  font-size: 40px;
-  line-height: 70px;
-  text-transform: capitalize;
-}
-.about-content ul {
-  color:#fff;
-  text-align: justify;
+  color:green;
+  transform: skew(180deg);
+  font-size: 23px;
 }
 
-.about-content ul li {
-  list-style-type: disc;
-  margin-bottom: 9px;
-}
-
-.about-skills{
-  flex-basis: 35%;
-}
-.about-skills ul li{
-  border-bottom: 1px dashed #ddd;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  color: #fff;
-  font-size: 18px;
-}
-.about-skills ul li:last-child{
-  border-bottom: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
 /*-------Button-------*/
 
 .btn-group{
@@ -236,6 +267,51 @@ body{
   border-color: #fed700;
 }
 
+ /*------About--------*/
+
+.about-area{
+  padding-top: 115px;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:50px;
+}
+.about-content{
+  flex-basis: 60%;
+}
+.about-content h4{
+  color: #fed700;
+  font-size: 40px;
+  line-height: 60px;
+  text-transform: capitalize;
+  text-decoration: 2px underline solid green ;
+  
+}
+.about-content ul {
+  color:#fff;
+  text-align: justify;
+}
+
+.about-content ul li {
+  list-style-type: disc;
+  margin-bottom: 9px;
+}
+
+.about-skills{
+  flex-basis: 35%;
+}
+.about-skills ul li{
+  border-bottom: 1px double green;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+
+
 /*-----------Education & Internship---------*/
 
 .education-content .row{
@@ -247,6 +323,7 @@ body{
 }
 .education-content .title{
   color: #fed700;
+  text-decoration: 2px underline solid green;
 }
 .education-content .row .education,
 .education-content .row .internship
@@ -278,35 +355,41 @@ body{
 .education-content .row .timeline-item{
   position:relative;
   padding-left: 37px;
-  padding-bottom: 50px; 
+  padding-bottom: 30px; 
   
 }
 .education-content .row  .internship .timeline-item{
   position:relative;
-  padding-left: 37px;
+  padding-left: 36px;
   padding-bottom: 30px; 
 }
-.education-content .row .timeline-item:last-child{
-  padding-bottom: 0;
-}
+ 
 .education-content .row .timeline-item::before{
   content: "";
-  width: 1px;
+  width: 1.5px;
   position: absolute;
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #fed700;  
+  background-color: green;  
 }
 .education-content .row .circle-dot{
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #e5e5e5;
+  background-color:red;
+  cursor: pointer;
+  animation-name: coloranimation;
+  animation-duration: 0.60s;
+  animation-delay: 0.4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+
 }
+
 .education-content .row .timeline-title  {
   font-weight: 700;
   font-size: 18px;
@@ -323,12 +406,22 @@ body{
   text-align: justify;
 }
 
+/* #calender {
+  border: none;
+  cursor: pointer;
+  animation-name: coloranimation;
+  animation-duration: 0.60s;
+  animation-delay: 0.4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+} */
+
 /*------ Achievements----- */
 
 section.achievement .achievement-title{
   margin-bottom: 60px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 section.achievement .achievement-title h4{
   text-transform: uppercase;
@@ -336,12 +429,16 @@ section.achievement .achievement-title h4{
   line-height: 40px;
   color: #fed700;
   margin-bottom: 20px;
+  text-decoration: 2px underline solid  green;
 }
 
 section.achievement .achievement-containt{
   border: 1px solid #e5e5e5;
   padding: 30px 30px;
   border-radius: 10px;
+}
+section.achievement .achievement-containt:hover{
+  border: 2px solid green;
 }
 
 section.achievement .achievement-containt h3{
@@ -360,6 +457,17 @@ section.achievement .achievement-containt p{
   padding-left: 40px;
 }
 
+#arrow-icon{
+  border: none;
+  cursor: pointer;
+  color: red;
+  animation-name: coloranimation;
+  animation-duration: 0.60s;
+  animation-delay: 0.4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
 /*----------------Projects-----------*/
 .project-content{
   padding: 90px 0;
@@ -368,6 +476,7 @@ section.achievement .achievement-containt p{
 .project-title{
   margin-bottom: 60px;
   text-align: center;
+ 
 }
 .project-title h4{
   text-transform: uppercase;
@@ -375,6 +484,7 @@ section.achievement .achievement-containt p{
   line-height: 40px;
   color: #fed700;
   margin-bottom: 20px;
+  text-decoration: 2px underline solid green;
 }
 .project-title p{
   color: #e5e5e5;
@@ -402,13 +512,20 @@ section.project-content .projects p{
     transition: .3s ease-out;
 }
 .project i{
-  background-color: #fed700;
+  /* background-color: gray; */
   width: 60px;
   height: 60px;
-  color: #333;
-  font-size: 26px;
+  color: white;
+  font-size: 40px;
   line-height: 60px;
   border-radius: 50%;
+  
+  border:none;
+  cursor: pointer;
+  animation-name: coloranimation;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
 }
 .project h4{
   font-size: 26px;
@@ -419,12 +536,14 @@ section.project-content .projects p{
   text-align: justify;
 }
 .project:hover{
-  border-color: #fed700;
+   border: 2px solid green;
+   
  
 }
+ 
 /*---------------------------Contact Me---------------------------*/
 .contact-content{
-  padding: 100px 0;
+  padding: 50px 0;
   color: #fff;
   text-align: center;
 }
@@ -433,6 +552,7 @@ section.project-content .projects p{
   text-transform: capitalize;
   color: #fed700;
   padding-bottom: 10px;
+  text-decoration: 2px underline solid green;
 }
 .contact-content .contact-title p{
   padding-bottom: 20px;
@@ -442,13 +562,15 @@ section.project-content .projects p{
   margin: auto;
 }
 .contact input,.contact textarea{
-  width: 100%;
+   width: 100%;
   padding: 15px;
   border: 0;
   margin-bottom: 10px;
   border-radius: 10px;
-}
+  border: none;
+  outline: none;
 
+}
 .contact .submit{
   width: auto;
   background-color: #fed700;
@@ -462,14 +584,15 @@ section.project-content .projects p{
   cursor: pointer;
 }
 #msg{
-  color: #fff;
+  color:black;
   font-size: 20px;
   margin-top: -8px;
   display: block;
+ border: none;
 }
 /*---------------Footer---------------*/
 .footer {
-    max-width: 950px;
+  max-width: 1270px;
     margin: 0 auto;
     padding: 15px 0 26px;
     border-top: 1px solid rgba(255, 255, 255, 0.1); 
@@ -478,15 +601,19 @@ section.project-content .projects p{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background-color: #2d2d2d;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;    
+    
   }
   .footer .message {
-    font-size: 12px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.4);
     margin-bottom: 10px;
   }
   
   .copyright {
-    font-size: 12px;
+    font-size: 15px;
   }
 
  /*---------- Responsive  -------------------*/
@@ -522,6 +649,27 @@ section.project-content .projects p{
   .header .menu_icon {
     display: block;
   }
+  .header .menu_icon{
+    font-size: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+    color:black;
+    
+  }
+
+  .about-area {
+    padding: 10px 0px ;
+  }
+
+  .achievement-containt {
+    padding: 10px 0px;
+  }
+
+  .contact-content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .header ul{
     display: none;
   }
@@ -566,6 +714,37 @@ section.project-content .projects p{
     flex-basis: 100%;
     margin-bottom: 30px;
   }
+  section.achievement .achievement-title{
+    margin-bottom: 60px;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  section.achievement .achievement-containt li {
+    color: #fff;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    list-style-type: disc;
+}
+section.achievement .achievement-containt p {
+  color: #e5e5e5;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.footer {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 15px 0 26px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #2d2d2d;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 19px;
+}
 
 }
 
