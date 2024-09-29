@@ -1,6 +1,6 @@
-# Internship at CodSoft
+#  Web Development Internship at CodSoft
 
-#Table of contents
+# Table of contents
 
 - [Introduction](#introduction)
 - [Internship Tasks Highlights](#internship-tasks-highlights)
@@ -16,7 +16,9 @@
     I'm Prince Kumar, currently pursuing my Bachelor's in Computer Applications (BCA) at  Bharati Vidyapeeth Institute of Management and Research in Delhi.
     I have successfully completed my first Virtual Internship in Web Development with CodSoft in July 2024! 🏅
 
+
  # Internship Tasks Highlights
+ 
  
 - Task 1: `Personal Portfolio`
   
@@ -41,7 +43,9 @@
   🔗 [Calculator Website](https://princekumarsinghcalculator.netlify.app).
 
 
+
  # Skills Gained
+
 
   Through this internship, I gained experience in:
 
@@ -56,7 +60,9 @@
   -> Project management and time management during a remote internship.
 
 
+
  # Gratitude
+
 
   I want to extend a big thanks to the CodSoft Community for offering me this incredible opportunity. 
   
@@ -65,7 +71,9 @@
   I highly recommend this internship to anyone looking for hands-on experience in web development.
 
 
+
   # Certificate
+
  
    Here is the certificate I earned upon successful completion of my virtual internship:
 
