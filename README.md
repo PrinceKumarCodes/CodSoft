@@ -3,7 +3,7 @@
 # Table of contents
 
 - [Introduction](#introduction)
-- [Internship Tasks Highlights](#internship-tasks-highlights)
+- [Internship Tasks](#internship-tasks)
 - [Skills Gained](#skills-gained)
 - [Gratitude](#gratitude)
 - [Certificate](#certificate)
@@ -17,7 +17,7 @@
     I have successfully completed my first Virtual Internship in Web Development with CodSoft in July 2024! 🏅
 
 
- # Internship Tasks Highlights
+ # Internship Tasks 
  
  
 - Task 1: `Personal Portfolio`
