@@ -13,7 +13,7 @@
    -> For my first task, I developed a Personal Portfolio using HTML, CSS, and JavaScript. 
    This project helped me understand how to structure a personal webpage and showcase my skills, projects, and experience effectively.
 
-   🔗 [Personal Portfolio Websites](https://princekumarsinghmyportfolio.netlify.app).
+   🔗 [Personal Portfolio Website](https://princekumarsinghmyportfolio.netlify.app).
 
 
 - Task 2: `Landing Page`
