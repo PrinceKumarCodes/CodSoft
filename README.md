@@ -7,7 +7,6 @@
 - [Introduction](#introduction)
 - [Internship Tasks](#internship-tasks)
 - [Skills Gained](#skills-gained)
-- [Gratitude](#gratitude)
 - [Certificate](#certificate)
 
 ---
