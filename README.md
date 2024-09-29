@@ -6,7 +6,7 @@
     I'm Prince Kumar, currently pursuing my Bachelor's in Computer Applications (BCA) at  Bharati Vidyapeeth Institute of Management and Research in Delhi.
     I have successfully completed my first Virtual Internship in Web Development with CodSoft in July 2024! 🏅
 
- # Internship Highlights
+ # Internship Tasks Highlights
  
 - Task 1: `Personal Portfolio`
   
