@@ -1,5 +1,7 @@
 #  Web Development Internship at CodSoft
 
+- Virtual Internship completed in July 2024, where I worked on real-world projects and enhanced my web development skills with a focus on HTML, CSS, and JavaScript.
+
 # Table of contents
 
 - [Introduction](#introduction)
@@ -12,35 +14,36 @@
 
 # Introduction
 
-   Hey Everyone! 👋
-    I'm Prince Kumar, currently pursuing my Bachelor's in Computer Applications (BCA) at  Bharati Vidyapeeth Institute of Management and Research in Delhi.
-    I have successfully completed my first Virtual Internship in Web Development with CodSoft in July 2024! 🏅
+   Hi! I'm Prince Kumar, a BCA student from Bharati Vidyapeeth Institute of Management and Research, Delhi. During my internship with CodSoft, I completed 
+   several hands-on tasks that helped me dive deeper into Web Development.🏅
 
 
  # Internship Tasks 
  
- 
-- Task 1: `Personal Portfolio`
+
+- **Task 1: Personal Portfolio**
+
+   -> Developed a fully responsive Personal Portfolio website using HTML, CSS, and JavaScript. It showcases my skills, projects, and experiences 
+      effectively.
+
+   🔗 [View Personal Portfolio](https://princekumarsinghmyportfolio.netlify.app).
+
+
+
+- **Task 2: Landing Page**
   
-   -> For my first task, I developed a Personal Portfolio using HTML, CSS, and JavaScript. 
-   This project helped me understand how to structure a personal webpage and showcase my skills, projects, and experience effectively.
+  -> Created a visually engaging Landing Page with HTML and CSS. This task emphasized responsive design principles and UX/UI skills.
 
-   🔗 [Personal Portfolio Website](https://princekumarsinghmyportfolio.netlify.app).
+    🔗 [View Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
 
 
-- Task 2: `Landing Page`
+
+- **Task 3: Calculator Website**
   
-  -> In this task, I created a Landing Page using HTML and CSS. It required basic knowledge of front-end web development and challenged me to design an engaging and responsive landing page.
+   -> Built an interactive Calculator web application using HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations.
 
-    🔗 [Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
+  🔗 [View Calculator](https://princekumarsinghcalculator.netlify.app).
 
-
-- Task 3: `Calculator Website`
-  
-   -> In this final task, I developed a basic Calculator using HTML, CSS, and JavaScript. The project focused on building an interactive UI with buttons for performing basic arithmetic 
-  operations (addition, subtraction, multiplication, division).
-
-  🔗 [Calculator Website](https://princekumarsinghcalculator.netlify.app).
 
 
 
@@ -59,22 +62,12 @@
   
   -> Project management and time management during a remote internship.
 
-
-
- # Gratitude
-
-
-   I want to extend a big thanks to the CodSoft Community for offering me this incredible opportunity. 
-  
-   It was a great experience working with such a supportive team and enhancing my web development skills through practical projects.
-  
    
 
 
+# Certificate
 
-  # Certificate
 
- 
-   Here is the certificate I earned upon successful completion of my virtual internship:
+ Check out my Internship Certificate for the successful completion of the program:
 
-  🔗 [View Internship Certificate](https://github.com/user-attachments/assets/2724d74a-01d4-4dd6-bf68-aa54945a7e69)
+  🔗 [View Certificate](https://github.com/user-attachments/assets/2724d74a-01d4-4dd6-bf68-aa54945a7e69)
