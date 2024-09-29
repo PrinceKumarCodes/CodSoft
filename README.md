@@ -1,5 +1,15 @@
 # Internship at CodSoft
 
+#Table of contents
+
+- [Introduction](#introduction)
+- [Internship Tasks Highlights](#internship-tasks-highlights)
+- [Skills Gained](#skills-gained)
+- [Gratitude](#gratitude)
+- [Certificate](#certificate)
+
+---
+
 # Introduction
 
    Hey Everyone! 👋
