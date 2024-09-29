@@ -1,4 +1,4 @@
-## Web Development Internship at CodSoft
+# Web Development Internship at CodSoft
 
 # Introduction
 
@@ -20,7 +20,7 @@
   
   -> In this task, I created a Landing Page using HTML and CSS. It required basic knowledge of front-end web development and challenged me to design an engaging and responsive landing page.
 
-    🔗 Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
+    🔗 [Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
 
 
 - Task 3: `Calculator`
