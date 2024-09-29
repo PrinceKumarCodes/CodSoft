@@ -1,4 +1,4 @@
-# Web Development Internship at CodSoft
+# Internship at CodSoft
 
 # Introduction
 
