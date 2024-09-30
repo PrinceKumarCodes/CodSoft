@@ -33,7 +33,7 @@
   
   -> Created a visually engaging Landing Page with HTML and CSS. This task emphasized responsive design principles and UX/UI skills.
 
-    🔗 [View Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
+   🔗 [View Landing Page](https://github.com/user-attachments/assets/0d805cf9-09f0-4581-b650-07b6f27bf2ec)
 
 
 
