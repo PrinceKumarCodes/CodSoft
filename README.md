@@ -25,7 +25,7 @@
    -> Developed a fully responsive Personal Portfolio website using HTML, CSS, and JavaScript. It showcases my skills, projects, and experiences 
       effectively.
 
-   🔗 [View Personal Portfolio](https://princekumarsinghmyportfolio.netlify.app).
+   🔗 [View Personal Portfolio](https:).
 
 
 
@@ -41,7 +41,7 @@
   
    -> Built an interactive Calculator web application using HTML, CSS, and JavaScript, enabling users to perform basic arithmetic operations.
 
-  🔗 [View Calculator](https://princekumarsinghcalculator.netlify.app).
+  🔗 [View Calculator](https:).
 
 
 
